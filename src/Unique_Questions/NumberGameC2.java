@@ -12,7 +12,7 @@ import java.util.ArrayList;
 // 1<A[i]<=10^9
 
 
-public class NumberGame {
+public class NumberGameC2 {
     public int solve(ArrayList<Integer> A) {
         if(A.size()==1  || A.size()==0){
             return 0;
@@ -27,7 +27,7 @@ public class NumberGame {
         return (int)result;
     }
     public static void main(String args []){
-        NumberGame N1=new NumberGame();
+        NumberGameC2 N1=new NumberGameC2();
         ArrayList<Integer>A=new ArrayList<Integer>(5);
         A.add(3);A.add(5);A.add(4);A.add(7);A.add(7);
         System.out.println( N1.solve(A));

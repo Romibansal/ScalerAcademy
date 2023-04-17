@@ -1,7 +1,5 @@
 package Bit_Manipulation_2;
 
-import Bit_Manipulation.SubarraysWithBitwiseOR1;
-
 
 // Q=Write a function that takes an integer and returns the number of 1 bits it has?
 

@@ -1,7 +1,20 @@
 package Arrays_2D_Matrices;
 
+//Q=Problem Description
+//        You are given a 2D integer matrix A, make all the elements in a row or column zero if the A[i][j] = 0.
+//        Specifically, make entire ith row and jth column zero.
+//
+//        Problem Constraints
+//        1 <= A.size() <= 10^3
+//
+//        1 <= A[i].size() <= 10^3
+//
+//        0 <= A[i][j] <= 10^3
+
+
+
 public class RowToColumnZero {
-    public int[][] solve(int[][] A) {
+    public int[][] solve(int[][] A)  {
         int n=A.length;
         int[][] a=new int[n][n];
         for(int i=0;i<n;i++){

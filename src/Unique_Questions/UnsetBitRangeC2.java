@@ -12,7 +12,7 @@ package Unique_Questions;
 
 
 
-public class UnsetBitRange {
+public class UnsetBitRangeC2 {
     public int solve(int A, int B, int C) {
         int q=C-B;
         for(int i=0;i<q;i++){
@@ -25,7 +25,7 @@ public class UnsetBitRange {
         return A;
     }
     public static void main(String args []){
-        UnsetBitRange N1=new UnsetBitRange();
+        UnsetBitRangeC2 N1=new UnsetBitRangeC2();
         System.out.println( N1.solve(3,1,2));
     }
 }

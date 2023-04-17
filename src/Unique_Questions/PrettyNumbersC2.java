@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 
 
-public class PrettyNumbers {
+public class PrettyNumbersC2 {
     public ArrayList<Integer> solve(ArrayList<Integer> A) {
         ArrayList<Integer>B=new ArrayList<Integer>();
         if(A.size()==1 || A.size()==0){
@@ -50,7 +50,7 @@ public class PrettyNumbers {
         return B;
     }
     public static void main(String args []){
-        PrettyNumbers N1=new PrettyNumbers();
+        PrettyNumbersC2 N1=new PrettyNumbersC2();
         ArrayList<Integer>A=new ArrayList<Integer>(5);
         A.add(13);A.add(15);A.add(13);A.add(2);A.add(9);A.add(3);A.add(10);A.add(10);A.add(20);A.add(13);
         System.out.println( N1.solve(A));

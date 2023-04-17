@@ -1,6 +1,4 @@
-package Bit_Manipulation;
-
-import Arrays_2D_Matrices.RowToColumnZero;
+package Bit_Manipulation_1;
 
 public class SubarraysWithBitwiseOR1 {
     public long solve(int A, int[] B) {
