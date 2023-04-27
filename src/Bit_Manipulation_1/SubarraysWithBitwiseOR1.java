@@ -1,5 +1,14 @@
 package Bit_Manipulation_1;
 
+//Q=Problem Description
+//        Given an array B of length A with elements 1 or 0. Find the number of subarrays such that the bitwise OR of all the elements present in the subarray is 1.
+//        Note : The answer can be large. So, return type must be long.
+//
+//
+//
+//        Problem Constraints
+//        1 <= A <= 10^5
+
 public class SubarraysWithBitwiseOR1 {
     public long solve(int A, int[] B) {
         long zero=0;

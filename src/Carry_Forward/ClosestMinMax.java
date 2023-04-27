@@ -26,18 +26,30 @@ public class ClosestMinMax {
         int last_max_index=-1;
         int ans =A.length;
         for(int j=0;j<A.length;j++){
-            if(A[j]==min){
+            if(min==A[j] && last_max_index!=-1){
+                ans=Math.min(ans,j-last_max_index+1);
+            }
+            else if(max==A[j] && last_min_index!=-1){
+                ans=Math.min(ans,j-last_min_index+1);
+            }
+            else if(min==A[j] && last_max_index==-1){
                 last_min_index=j;
-                if(last_max_index!=-1){
-                    ans=Math.min(ans,j-last_max_index+1);
-                }
             }
-            if(A[j]==max){
+            else if(max==A[j] && last_min_index==-1){
                 last_max_index=j;
-                if(last_min_index!=-1){
-                    ans=Math.min(ans,j-last_min_index+1);
-                }
             }
+//            if(A[j]==min){
+//                last_min_index=j;
+//                if(last_max_index!=-1){
+//                    ans=Math.min(ans,j-last_max_index+1);
+//                }
+//            }
+//            if(A[j]==max){
+//                last_max_index=j;
+//                if(last_min_index!=-1){
+//                    ans=Math.min(ans,j-last_min_index+1);
+//                }
+//            }
         }
         return ans;
     }
