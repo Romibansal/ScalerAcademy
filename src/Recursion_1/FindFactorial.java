@@ -21,7 +21,7 @@ public class FindFactorial {
     }
     public static void main(String args []){
         FindFactorial N1=new FindFactorial();
-        System.out.println( N1.solve(3));
+        System.out.println( N1.solve(27));
     }
 }
 
