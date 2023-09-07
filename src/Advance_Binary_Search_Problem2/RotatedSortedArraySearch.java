@@ -47,7 +47,7 @@ public class RotatedSortedArraySearch {
                 breakpoint=mid;
                 break;
             }
-            if(A[0]<A[mid]){
+            if(A[0]<=A[mid]){
                 l=mid+1;
             }
             else{

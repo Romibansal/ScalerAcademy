@@ -24,6 +24,6 @@ public class ExcelColumnNumber {
     }
     public static void main(String[] args) {
         ExcelColumnNumber I = new ExcelColumnNumber();
-        System.out.println(I.titleToNumber("AA"));
+        System.out.println(I.titleToNumber("BB"));
     }
 }

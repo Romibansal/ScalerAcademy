@@ -39,7 +39,7 @@ public class ComputeNcRWithModulos {
     }
     public static void main(String[] args) {
         ComputeNcRWithModulos I = new ComputeNcRWithModulos();
-        System.out.println(I.solve(19743, 25,48713));
+        System.out.println(I.solve(25, 6,48713));
     }
 }
 

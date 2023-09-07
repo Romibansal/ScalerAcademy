@@ -63,6 +63,7 @@ public class PaintersPartitionProblem {
         int C[]=new int [2];
         C[0] =1000000;C[1] = 1000000;
 
+
         System.out.println(I.paint(1,1000000,C));
     }
 }

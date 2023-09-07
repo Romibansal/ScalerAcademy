@@ -40,7 +40,7 @@ public class SortingWithMergeSort {
         return x;
     }
     public ArrayList<Integer> solve(ArrayList<Integer> A) {
-       ArrayList<Integer>  s=sort(A,0,A.size()-1);
+       ArrayList<Integer> s=sort(A,0,A.size()-1);
         return s;
     }
     public static void main(String[] args) {

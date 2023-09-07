@@ -17,7 +17,7 @@ package Advance_Binary_Search_Problem3;
 //        NOTE: Return -1 if a valid assignment is not possible.
 //
 //        Problem Constraints
-//        1 <= N <= 105
+//        1 <= N <= 10^5
 //        1 <= A[i], B <= 10^5
 
 

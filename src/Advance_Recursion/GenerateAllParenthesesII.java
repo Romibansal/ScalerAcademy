@@ -17,12 +17,13 @@ public class GenerateAllParenthesesII {
             ans.add(s);
             return ans;
         }
-        if(remC>remO){
-            generatestring(remO,remC-1,s+")", ans);
-        }
         if(remO>0){
             generatestring(remO-1,remC,s+"(",ans);
         }
+        if(remC>remO){
+            generatestring(remO,remC-1,s+")", ans);
+        }
+
         return ans;
     }
     public ArrayList<String> generateParenthesis(int A) {
@@ -33,7 +34,7 @@ public class GenerateAllParenthesesII {
     }
     public static void main(String[] args) {
         GenerateAllParenthesesII I = new GenerateAllParenthesesII();
-        System.out.println(I.generateParenthesis(2));
+        System.out.println(I.generateParenthesis(3));
     }
 }
 

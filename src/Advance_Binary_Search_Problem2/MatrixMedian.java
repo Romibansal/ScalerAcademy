@@ -42,7 +42,6 @@ public class MatrixMedian {
             for(int i = 0; i < n; i++){
                 cnt += lowerBound(A[i], mid);
             }
-
             if(cnt > medPos)
                 high = mid - 1;
             else{

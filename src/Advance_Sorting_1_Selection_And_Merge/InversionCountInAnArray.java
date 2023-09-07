@@ -7,7 +7,7 @@ import java.util.ArrayList;
 //        is called an inversion of A. Find the total number of inversions of A modulo (10^9 + 7).
 //
 //        Problem Constraints
-//        1 <= length of the array <= 105
+//        1 <= length of the array <= 10^5
 //
 //        1 <= A[i] <= 10^9
 
@@ -48,8 +48,8 @@ public class InversionCountInAnArray {
         while(j<m){
             A.set(k,b.get(j));
             j++;k++;
-            long h=(ans%mod+(n-i)%mod)%mod;
-            ans=(int)h;
+//            long h=(ans%mod+(n-i)%mod)%mod;
+//            ans=(int)h;
         }
     }
     void sort(ArrayList<Integer> A,int st,int end){
